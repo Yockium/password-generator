@@ -11,7 +11,7 @@
   margin: 0 auto;
   max-width: 800px;
 
-  .containerElements {
+  .containerElements, #generate {
     margin: 1rem;
     background-color: thistle;
     border-radius: 0.5rem;
@@ -20,7 +20,7 @@
     transition: 0.3s ease-in-out;
   }
 
-  .containerElements:hover {
+  .containerElements:hover, #generate:hover {
     transform: scale(1.025);
   }
 
