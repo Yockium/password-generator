@@ -13,7 +13,7 @@ A simple web application that generates a random password based on user-specifie
 
 ## Demo
 
-![gif](https://github.com/user-attachments/assets/55fef9d0-8c57-4bf2-b715-ce16b23897e2)
+![password-generator-gif](https://github.com/user-attachments/assets/fdc76f01-f676-48d9-9caa-5845ba1edfa3)
 
 ## Installation
 
