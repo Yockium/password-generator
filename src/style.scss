@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+
+  .containerElements {
+    margin: 1rem;
+    background-color: thistle;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border-bottom: solid black 1px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .containerElements:hover {
+    transform: scale(1.025);
+  }
+
+  .containerElements:has(#passwordDisplay:empty) {
+    display: none;
+  }
+
+  #length {
+    min-width: 7rem;
+    padding: 0.5rem;
+  }
+
+  #generate {
+    padding: 1rem;
+    align-self: center;
+    border-radius: 0.5rem;
+  }
+}
+
+#container:hover > .containerElements:not(:hover) {
+  filter: brightness(0.9);
+}
+
+#passwordDisplay {
+  word-break: break-all;
+}
