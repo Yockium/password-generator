@@ -19,8 +19,6 @@ A simple web application that generates a random password based on user-specifie
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository:**
-
    ```sh
    git clone https://github.com/your-username/your-repository.git
    cd <your-path-to-the-project>
